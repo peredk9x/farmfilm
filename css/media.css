@@ -1,0 +1,136 @@
+/* Tablet and Mobile */
+@media only screen and (max-width:59.375em)
+{
+    section #watch-tv, #watch-smart{
+        
+        flex-direction:column;
+    }
+    .content--app{
+        flex-direction:column-reverse !important;
+    }
+    .content--textapp{
+        margin-bottom:5% !important;
+    }
+}
+/*Tablet min-width: 750px and max-width:950px*/
+@media only screen and (min-width: 46.25em ) and (max-width:59.375em)
+{   
+    .bgr-header{
+        padding:28%;
+        
+    }
+    header div.logo,header div#preamble h4,header div#preamble button, section div#start button,header div#preamble p, section div#start p{
+        font-size:20px;
+    }
+    
+    header div#preamble h2{
+        font-size:35px;
+    }
+
+
+    section #watch-tv, #watch-smart{
+      
+        flex-direction:column;
+    }
+    .content #content{
+        text-align:center;
+        margin-top:5%;
+        max-width: 100%;
+    }
+    .content #content h1,.content-ask #title h1{
+        font-size: 40px;
+        margin-bottom:3%;
+    }
+    .content #content p{
+        width:100%;
+        text-align: center;
+        font-size: 20px;
+    }
+    .img-tv{
+        margin-bottom:3%;
+    }
+   
+    .img-smart img{
+        width:85%;
+        margin:0 auto;
+        display: inherit;
+    }
+    .content .img-smart .form-dwn-load{
+        width:45%;
+    }
+ 
+    .quest button{
+        font-size:23px;
+    }
+}
+
+
+/*Mobile max-width: 739px*/
+@media only screen and (max-width:46.1875em)
+{
+    header div.logo,header div#preamble h4,header div#preamble button, section div#start button,header div#preamble p, section div#start p{
+        font-size:15px;
+    }
+    header div#preamble h2,.content-ask #title h1{
+        font-size: 25px;
+    }
+    header div#preamble{
+        width:85%;
+    }
+    header div#bgr-header{
+        padding-top:56%;
+    }
+    header div#preamble p, section div#start p{
+        font-size:12px;
+    }
+    .content #content h1{
+        font-size: 25px;
+        margin:5% 0% 2% 0%;
+    }
+    .content #content{
+        text-align:center;
+        max-width:100%;
+    }
+    
+    .content #content p {
+        font-size:17px;
+        width:100%;
+        text-align: center;
+    }
+    .img-tv{
+        margin-bottom:5%;
+    }
+    .img-tv img{
+        margin:0 auto;
+        display:inherit;
+        width:96%;
+    }
+    .video-tv{
+        width:69%;
+    }
+    .content-ask{
+        margin:10% 0%;
+    }
+    ul.question-ask{
+        width:100%;
+    }
+    .quest button{
+        font-size:15px;
+    }
+    .reply{
+        font-size:15px;
+        margin-top:0.3%;
+    }
+   
+    ul.footer-link{
+        justify-content: flex-start;
+    }
+    .footer-top{
+        margin-bottom: 5%;
+    }
+    ul.footer-link li{
+        margin-bottom: 20px;
+        width:50%;
+        padding-right:0%;
+    }
+}
