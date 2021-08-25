@@ -69,16 +69,16 @@
 @media only screen and (max-width:46.1875em)
 {
     header div.logo,header div#preamble h4,header div#preamble button, section div#start button,header div#preamble p, section div#start p{
-        font-size:15px;
+        font-size:12px;
     }
     header div#preamble h2,.content-ask #title h1{
-        font-size: 25px;
+        font-size: 17px;
     }
     header div#preamble{
-        width:85%;
+        width:90%;
     }
     header div#bgr-header{
-        padding-top:56%;
+        padding-top:31%;
     }
     header div#preamble p, section div#start p{
         font-size:12px;
